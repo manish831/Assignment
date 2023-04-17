@@ -1,0 +1,31 @@
+body{
+    background: url(/assets/clue1.jpg) center/cover no-repeat;
+}
+.navbar img{
+    height: 50px;
+    width: 40px;
+    float: left;
+}
+.container{
+    margin: 60px;
+    background-color: rgba(201, 196, 196, 0);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    color: antiquewhite;
+    width: 70%;
+    border: 2px solid rgb(221, 20, 20);
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.153);
+    transition: all 0.6s ease;
+    cursor: pointer;
+    height: 500px;
+}
+.box:hover{
+    background-color: rgba(0, 0, 0, 0.504);
+}

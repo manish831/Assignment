@@ -1,0 +1,155 @@
+body{
+    background: url(/assets/markus-spiske-iar-afB0QQw-unsplash.jpg) center/cover no-repeat;
+}
+p{
+    color: antiquewhite;
+    font-size: 30px;
+}
+/* ************************************************START PAGE******************************************** */
+
+img{
+    float: left;
+
+}
+/* Home Section CSS */
+
+#tt{
+    color: antiquewhite;
+}
+.home {
+    background-color: transparent;
+    padding: 30px;
+}
+#sn {
+    text-decoration: none;
+    color: #e80b0b;
+}
+.list-group a{
+    color: rgb(241, 28, 28);
+    background:  antiquewhite;
+}
+.item-left{
+    background-color: transparent;
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.playbtn{
+
+    background-color: greenyellow;
+    margin-top: 20px;
+    padding: 5px 48px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.playbtn:hover{
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+}
+/* Login Form */
+form {
+    overflow: hidden;
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem 5rem;
+    transition: all 0.2s 0.7s;
+    
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+form.sign-in-form {
+    z-index: 2;
+}
+.title {
+    font-size: 2.2rem;
+    color: #f02222;
+    margin-bottom: 10px;
+}
+.input-field {
+    max-width: 380px;
+    width: 100%;
+    background-color: #7d2727;
+    margin: 10px 0;
+    height: 55px;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 0.4rem;
+    position: relative;
+}
+.input-field i {
+    text-align: center;
+    line-height: 55px;
+    color: #b12525;
+    transition: 0.5s;
+    font-size: 1.1rem;
+  }
+  
+  .input-field input {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #82ff0eea;
+  }
+  
+  .input-field input::placeholder {
+    color: #aaa;
+    font-weight: 500;
+}
+
+.btn {
+    width: 150px;
+    background-color: #5995fd;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .btn:hover {
+    background-color: #1256cca9;
+  }
+
+  .panels-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .container:before {
+    content: "";
+    position: absolute;
+    height: 2000px;
+    width: 2000px;
+    top: -10%;
+    right: 48%;
+    transform: translateY(-50%);
+    background-image: linear-gradient(-45deg, #000000db 0%, #000000 100%);
+    transition: 1.8s ease-in-out;
+    border-radius: 50%;
+    z-index: 6;
+  }
+  
