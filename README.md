@@ -1,6 +1,6 @@
 ## Useful Links
 
-- [Hosted Website](https://elitmuspuzzle.netlify.app/)
+- [Hosted Website](https://sixlevelpuzzle.onrender.com/)
 
 # Soft Skills assessed are:
 * Visibility factors.
